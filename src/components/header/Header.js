@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import { IconButton, Typography } from "@material-ui/core"
+import { IconButton, Typography } from "@material-ui/core";
 
 import "./Header.css";
 
@@ -21,21 +21,17 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 700,
   },
   appBar: {
-    backgroundColor: "dimgray", 
+    backgroundColor: "dimgray",
     boxShadow: "none",
-  }
+  },
 }));
 
 export default function Header() {
   const classes = useStyles();
 
-
   return (
     <div className={classes.grow}>
-      <AppBar
-        position="static"
-        className={classes.appBar}
-      >
+      <AppBar position="static" className={classes.appBar}>
         <Toolbar>
           <IconButton
             edge="start"
@@ -46,9 +42,8 @@ export default function Header() {
             <img className="company-logo" src={vehitoLogo} alt="company_logo" />
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap>
-            VScan
+            Vehito Scan
           </Typography>
-          
         </Toolbar>
       </AppBar>
     </div>

@@ -1,0 +1,102 @@
+.title-div {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0px;
+}
+
+.title {
+  width: 50%;
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+  border-image-slice: 1;
+  border-width: 5px;
+  padding: 1rem 0px;
+  color: white;
+  border-image-source: linear-gradient(to left, #3d8a14, #1f5776);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.text-fields {
+  width: 100%;
+  display: flex;
+  margin: 2rem 0px;
+}
+
+.text-field {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  width: 30%;
+  font-weight: 500;
+  color: #1f5776;
+  text-align: right;
+}
+
+.field {
+  width: 70%;
+}
+
+.connection-status-main-div {
+  margin: 3rem 0px;
+}
+
+.connection-status-inner-div {
+  text-align: center;
+  font-weight: 700;
+}
+
+.status-div {
+  display: flex;
+  justify-content: center;
+}
+
+.status {
+  width: 25%;
+  color: white;
+  background-color: green;
+  border: 3px solid lightgreen;
+  text-align: center;
+  padding: 1rem 0px;
+  margin: 1rem 0px;
+  font-weight: 600;
+}
+
+.pids {
+  margin: 1rem 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pid-label {
+  color: #1f5776;
+  font-weight: 500;
+}
+
+.btn-div {
+  text-align: center;
+  margin: 3rem 0px;
+}
+
+.btn {
+  background-color: #3d8a94;
+  color: white;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
