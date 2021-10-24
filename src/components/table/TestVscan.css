@@ -1,0 +1,117 @@
+.text-fields {
+  width: 100%;
+  display: flex;
+  margin: 2rem 0px;
+  justify-content: center;
+}
+
+.text-field {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  width: 30%;
+  font-weight: 500;
+  color: #1f5776;
+  text-align: right;
+}
+
+.field {
+  width: 70%;
+}
+
+.pids {
+  margin: 1rem 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pid-label {
+  color: #1f5776;
+  font-weight: 500;
+}
+
+.btn-div {
+  text-align: center;
+  margin: 3rem 0px;
+}
+
+.btn {
+  background-color: #3d8a94;
+  color: white;
+}
+
+.fault-details-grid,
+.engine-details-grid,
+.summary-grid {
+  text-align: center;
+  color: #1f5776;
+}
+
+.summary-grid {
+  border: 5px solid #3d8a94;
+}
+
+.string-values-grid {
+  text-align: center;
+  overflow: scroll;
+  border: 2px solid #1f5776;
+  border-top: none;
+}
+
+.string-values,
+.boolean-values {
+  display: flex;
+  margin: 1rem;
+}
+
+.boolean-values-div {
+  margin-top: 5rem;
+}
+
+.true {
+  color: green;
+}
+
+.false {
+  color: red;
+}
+
+.string-title,
+.boolean-title {
+  text-align: end;
+  color: teal;
+}
+
+.string-values,
+.boolean-values {
+  text-align: left;
+  color: coral;
+}
+
+.string-title,
+.string-value,
+.boolean-title,
+.boolean-value {
+  width: 50%;
+}
+
+.summary-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,19 @@
+.company-logo {
+  width: 2rem;
+}
+
+.company-logo {
+  height: 35px;
+  animation: company-logo-spin infinite 8s linear;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes company-logo-spin {
+  from {
+    transform: scaleX(-1);
+  }
+}

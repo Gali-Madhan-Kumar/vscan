@@ -1,0 +1,13 @@
+.imei-field {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-div {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
